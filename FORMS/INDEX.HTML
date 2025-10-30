@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKMYCAR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:#FDE5D4">
+    <header><div class="centered-text">
+        <NAV><h1><U>:BOOKMYCAR:</U></h1>
+            <UL>
+                <li><a href="#value1">HOME</a></li>
+                <li><a href="#value2">SIGNUP</a></li>
+                <li><a href="#value3">CAR DETAILS</a></li>
+                <li><a href="#value4">CAR DESCRIPTION VIDEO</a></li>
+                <li><a href="#value5">CAR INTERIOR</a></li>
+            </UL>
+        </NAV></div>
+    </header>
+
+<MAIN>
+
+<div class="centered-text">
+    <P><A name="value1"><H1 STYLE="background-color: rgb(228, 180, 108);">HOME</H1></A>
+        <h3>
+ This website is based on the demand of booking cars for custormer.It was made easy so anyone with no car experience and with normal knowledge of cars can book without trouble.
+
+ So book your cars with this website in hassle free and without any searching other website.
+
+ website is under maintance so looks may be awkward..</h3></p></div>
+  <div class="centered-text">   
+ <TABLE>
+        <THEAD><caption><h2>PRICE_PER_HOUR</h2></caption></THEAD>
+        <TBODY>
+            <tr>
+                <th>7_seater</th>
+                <th>5_seater</th>
+                <th>4_seater</th>
+            </tr>
+            <tr>
+                <th>20$/hr</th>
+                <th>15$/hr</th>
+                <th>10$/hr</th>
+            </tr>
+        </TBODY>
+    </TABLE>
+
+</div>
+
+    </P>
+    <div class="centered-text">
+    <p><a name="value2"></a><H1 STYLE="background-color: burlywood;">SIGNUP:</H1></p>
+    <form action="post">
+        <!--POST - when we have to give too many data
+            GET - when to tell server or hti server with a simple request-->
+            <div>
+        <label for ="username">Enter your username</label>
+        <input type="text" name ="username" placeholder="enter your name here" required pattern="[A-Z]"><br>
+
+        <label for="password">Enter your password</label>
+        <input type="password" name="password" placeholder="enter your password" pattern="[a-zA-Z0-9]+" Autofocus required><br>
+
+        <label for="age">enter your age</label>
+        <input type="number" id="age" name="age" min="18" max="100" placeholder="ex;30" >
+        <br>
+        <label for="mail">enter your email</label>
+        <input type="email" id="mail" name="mail" >
+        <BR>
+        
+        <BUTTON TYPE="SUMBIT" style="background-color: blue;">Sign up</BUTTON>
+        </div>
+        <div class="centered-text">
+<P ><h1 style="background-color: rgb(237, 187, 121);"><a name="value3">CAR DETAIL</a></h1></P>
+        <label for="date">Enter the date to buy:</label>
+        <input type="date" name="date" required><br>
+<br>
+        <label for="time">Enter pickup time:</label>
+        <input type="time"></div>
+        <br><br>
+        <div class="centered-text">
+            <h3>Select the function:-</h3>
+        <input type="radio" name ="FUNCTION" value="FUNCTION" required>
+        <label for="FUNCTION">MARRIAGE</label>
+        <input type="radio" name ="FUNCTION" value="FUNCTION" required>
+        <label for="FUNCTION">FAMILY TRAVEL</label>
+        <input type="radio" name ="FUNCTION" value="FUNCTION" required>
+        <label for="FUNCTION">SOLO TRAVEL</label><BR>
+        <input type="radio" name ="FUNCTION" value="FUNCTION" required>
+        <label for="FUNCTION">FAMILY FUNCTION</label><BR>
+        <input type="radio" name ="FUNCTION" value="FUNCTION" required>
+        <label for="FUNCTION">TOUR</label></div>
+       <br>
+        <div class="centered-text">
+            <h3>Number of seats required:</h3>
+            <input type="checkbox" id="seat" name="seat" value="seat">
+            <label for="seat">7-Seater</label><br>
+            
+            <input type="checkbox" id="seat" name="seat" value="seat">
+            <label for="seat">4-Seater</label><br>
+            
+            <input type="checkbox" id="seat" name="seat" value="seat">
+            <label for="seat">5-Seater</label>
+            
+            
+        </div>
+
+        <div class="centered-text">
+            <h3>SELECT DURATION(in hours)</h3>
+            <select name="hours" required >
+                <option value="Select">Select</option>
+                <option value="3">3 hours</option>
+                <option value="4">4hours</option>
+                <option value="5">5 hours</option>
+                <option value="6">6 hours</option>
+                <option value="7">7 hours</option>
+                <option value="8">8 hours</option>
+                <option value="9">9 hours</option>
+                <option value="10">10 hours</option>
+                <option value="11">11hours</option>
+                <option value="12">12hours</option>
+                <option value="13">13hours</option>
+                <option value="14">14hours</option>
+                <option value="15">15hours</option>
+                <option value="16">16hours</option>
+                <option value="17">17hours</option>
+                <option value="18">18hours</option>
+                <option value="19">19hours</option>
+                <option value="20">20hours</option>
+                <option value="21">21hours</option>
+                <option value="22">22hours</option>
+                <option value="23">23hours</option>
+                <option value="24">24hours</option>
+            </select>
+        </div>
+
+        <div class="centered-text"><h3>SELECT THE CITY</h3>
+            <select name="city" required >
+                <option value="Select">Select</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Bhubaneswar">Bhubaneswar</option>
+            </select>
+        </div>
+
+    <DIV class="centered-text">
+        <H3>SELECT THE COLOR FOR YOUR CAR:</H3>
+        <SELECT NAME="COLOR">
+            <OPTION VALUE="SELECT">SELECT</OPTION>
+            <OPTION VALUE="RED">RED</OPTION>
+            <OPTION VALUE="WHITE">WHITE</OPTION>
+            <OPTION VALUE="BLACK">BLACK</OPTION>
+            <OPTION VALUE="YELLOW">YELLOW</OPTION>
+            <OPTION VALUE="SILVER">SILVER</OPTION>
+            <OPTION VALUE="PINK">PINK</OPTION>
+            <OPTION VALUE="SUNSET">SUNSET</OPTION>
+            <OPTION VALUE="ORANGE">ORANGE</OPTION>
+            <OPTION VALUE="RAZBERRY">RAZBERRY</OPTION>
+        </SELECT>
+    </DIV>
+<br>
+    <div class="centered-text">
+            <h3>SELECT BRAND</h3>
+            <h3>FOR 7 SEATER</h3>
+
+            <select name="TYPE" required >
+                <option value="Select">Select</option>
+                <option value="2025 KIA EV9">2025 KIA EV9</option>
+                <option value="HYUNDAIPALISIDE">HYUNDAIPALISIDE</option>
+                <option value="KIA TELLURIDE">KIA TELLURIDE</option>
+                <option value="TOYOTA GRAND HIGHLANDER">TOYOTA GRAND HIGHLANDER</option>
+                <option value="MAZDA CX-90">MAZDA CX-90</option>
+                <option value="HONDA PILOT">HONDA PILOT</option>
+                <option value="VOLKSWAGON ID.BUZZ">VOLKSWAGON ID.BUZZ</option>
+                <option value="FORD EXPLORER">FORD EXPLORER</option>
+                <option value="CHEVROLET TRAVERSE">CHEVROLET TRAVERSE</option>
+                <option value="LEXUS TX">LEXUS TX</option></select>
+
+                <H3>FOR 5 SEATERS:</H3>
+            <select name="TYPE" required>
+                <option value="Select">Select</option>
+                <option value="HYUNDAI IONIQ 5">HYUNDAI IONIQ 5</option>
+                <option value="KIA EV-6">KIA EV-6</option>
+                <option value="FORD MUSTANG MACH-E">FORD MUSTANG MACH-E</option>
+                <option value="JEEP WAGONER S">JEEP WAGONER S</option>
+                <option value="HONDA CR-V">HONDA CR-V</option>
+                <option value="TOYOTA RAV4">TOYOTA RAV4</option>
+                <option value="SUBARU FORESTER">SUBARU FORESTER</option>
+                <option value="TESLA MODEL Y">TESLA MODEL Y</option>
+                <option value="NISSAN ROGUE">NISSAN ROGUE</option></select>
+
+                <H3>FOR 4 SEATERS:</H3>
+                  <select name="TYPES" required >
+                <option value="Select">Select</option>
+                <option value="">FORD MUSTANG GTD</option>
+                <option value="LEXUS LC">LEXUS LC</option>
+                <option value="BMW 4-SERIES">BMW 4-SERIES</option>
+                <option value="AUDI A5 COUPE">AUDI A5 COUPE</option>
+                <option value="MERCEDES BENZ CLE-CLASS">MERCEDES BENZ CLE-CLASS</option>
+                <option value="TOYOTA GR SUPRA">TOYOTA GR SUPRA</option>
+            </select>
+        </div>
+
+<BR>
+    <div class="centered-text">
+        <button type="SUMBIT" style="background-color: aqua;">Sumbit the details</button>
+    
+        <h1 style="background-color: burlywood;"><a name="value4">CAR DESCRIPTION VIDEO</a></h1>
+
+        <H2>FOR 7-SEATER CAR:</H2>
+        <video src="VIDEO7.MP4" height="200" width="400"poster="poster_7.jpeg" controls muted></video>
+        <br>
+    
+        <H2>FOR 4-SEATER CAR:</H2>
+        <video src="VIDEO4.MP4" height="200" width="400"poster="poster_4.jpeg" controls muted></video>
+        <br>
+
+         <H2>FOR 5-SEATER CAR:</H2>
+        <video src="VIDEO5.MP4" height="200" width="400"poster="poster_5.jpeg" controls muted></video>
+        <br>
+    </div>
+
+    <div class="centered-text">
+        <h1 style="background-color: rgb(165, 165, 101);"><A name="value5">CAR INTERIOR</A></h1>
+        <br>
+        <H2>FOR 7-SEATER CAR:</H2>
+        <img src="7-SEATER-1.JPEG" alt="7-SEATER" HEIGHT="100" WIDTH="200"><BR>
+        <img src="7-SEATER-2.jpeg" alt="7-SEATER" HEIGHT="100" WIDTH="200"><BR>
+        <H2>FOR 5-SEATER CAR:</H2>
+        <img src="5SEATER-1.JPEG" alt="5SEATER-1" HEIGHT="100" WIDTH="200"><BR>
+        <img src="5SEATER-2.JPEG" alt="5SEATER-2" HEIGHT="100" WIDTH="200"><BR>
+        <img src="5SEATER-3.JPEG" alt="5SEATER-3" HEIGHT="100" WIDTH="200">
+        <H2>FOR 4-SEATER CAR:</H2>
+        <img src="4-SEATER-1.JPEG" alt="4SEATER-1" HEIGHT="100" WIDTH="200"><BR>
+        <img src="4-SEATER-2.JPEG" alt="4SEATER-2" HEIGHT="100" WIDTH="200">
+    </div>
+
+         <div class="centered-text">
+            <label for="feedback">Enter Your Feedback:</label><BR>
+            <textarea name="feedback" id="feedback" placeholder="enter your feedback here" rows="10" cols="60"></textarea>
+        </div>
+
+    </MAIN>
+        <footer style="background-color:grey;"><div class="centered-text">
+            <PRE>
+                          BOOKMYCAR
+                       FOLLOW US ON <A HREF="HTTP://INSTAGRAM.COM"><IMG SRC="instagram.jpg" height="13"></A>
+           <hr>
+            Copyright &copy;BOOKMYCAR     FOR CONTACT:XXXXXXXXXX 
+            Address :
+                Acharya vihar,bhubaneswar,khordha,odisha,india
+            working hours:
+                Monday to sunday ;9.00AM-9.00PM
+            </PRE></div>
+        </footer>
+    </form>
+</body>
+</html>
