@@ -6,31 +6,42 @@
     <title>BOOKMYCAR</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color:#FDE5D4">
-    <header><div class="centered-text">
-        <NAV><h1><U>:BOOKMYCAR:</U></h1>
-            <UL>
-                <li><a href="#value1">HOME</a></li>
-                <li><a href="#value2">SIGNUP</a></li>
-                <li><a href="#value3">CAR DETAILS</a></li>
-                <li><a href="#value4">CAR DESCRIPTION VIDEO</a></li>
-                <li><a href="#value5">CAR INTERIOR</a></li>
-            </UL>
-        </NAV></div>
-    </header>
+<body style="background-color: peachpuff">
+    </div>
+      <div class="centered-text" style="color: red;">
+        <h1>BookMyCar</h1>
+         <input type="text" placeholder="search here" name="search">
+         <button type="sumbit">search here</button>
+         <select name="language" id="lang">
+            <option value="select">SELECT</option>
+            <option value="english">ENG</option>
+            <option value="hindi">HINDI</option>
+            <option value="spanish">SPAN</option>
+            <option value="ODIA">ODIA</option>
+         </select>
+        
+            <a href="#value1" style="text-decoration: none; color:white">HOME</a>
+            <a href="#value2" style="text-decoration: none ;color:white;">SIGNUP</a>
+            <a href="#value3" style="text-decoration: none ;color:white;">LOGIN</a>
+            <a href="#value4" style="text-decoration: none; color:white;">CAR DETAILS</a>
+            <a href="#value5" style="text-decoration: none;color:white;">CAR DESCRIPTION VIDEO</a>
+            <a href="#value6" style="text-decoration: none ;color:white;">CAR INTERIOR</a>
+            <a href="#value7"style="text-decoration: none ;color:white;">ABOUT US</a>
+           
+            
+    </div>
 
-<MAIN>
+<div>
+    <P><A name="value1"><H1 STYLE="background-color:rgb(100, 100, 164);">HOME</H1></A><pre class="home">
+        "Your journey starts here.Find your perfect ride."
 
-<div class="centered-text">
-    <P><A name="value1"><H1 STYLE="background-color: rgb(228, 180, 108);">HOME</H1></A>
-        <h3>
- This website is based on the demand of booking cars for custormer.It was made easy so anyone with no car experience and with normal knowledge of cars can book without trouble.
+      "Explore your way:flexible and affordable car price."
 
- So book your cars with this website in hassle free and without any searching other website.
-
- website is under maintance so looks may be awkward..</h3></p></div>
-  <div class="centered-text">   
- <TABLE>
+          "Rent a car and be a hassle free person."
+       </pre>
+ </p></div>
+  <div class="table" >
+    <TABLE>
         <THEAD><caption><h2>PRICE_PER_HOUR</h2></caption></THEAD>
         <TBODY>
             <tr>
@@ -45,68 +56,80 @@
             </tr>
         </TBODY>
     </TABLE>
-
+<br><br>
 </div>
-
-    </P>
-    <div class="centered-text">
-    <p><a name="value2"></a><H1 STYLE="background-color: burlywood;">SIGNUP:</H1></p>
+<div class="user">
+    <div id="sign" class="hover">
+    <p><a name="value2"></a><H1 STYLE="background-color: rgb(100, 100, 164);">SIGNUP:</H1></p>
     <form action="post">
         <!--POST - when we have to give too many data
-            GET - when to tell server or hti server with a simple request-->
-            <div>
-        <label for ="username">Enter your username</label>
-        <input type="text" name ="username" placeholder="enter your name here" required pattern="[A-Z]"><br>
+            GET - when to tell server or hit server with a simple request-->
+        <label for ="username">Enter your username:</label>
+        <input type="text" name ="username" placeholder="enter your name here" required pattern="[A-Z]"><br><br>
 
-        <label for="password">Enter your password</label>
-        <input type="password" name="password" placeholder="enter your password" pattern="[a-zA-Z0-9]+" Autofocus required><br>
+        <label for="password">Enter your password:[a-zA-Z0-9]</label>
+        <input type="password" name="password" placeholder="enter your password" pattern="[a-zA-Z0-9]+" Autofocus required><br><br>
 
-        <label for="age">enter your age</label>
+        <label for="age">Enter your age:</label>
         <input type="number" id="age" name="age" min="18" max="100" placeholder="ex;30" >
         <br>
-        <label for="mail">enter your email</label>
+        <label for="mail">Enter email:</label>
         <input type="email" id="mail" name="mail" >
         <BR>
-        
+       
         <BUTTON TYPE="SUMBIT" style="background-color: blue;">Sign up</BUTTON>
         </div>
-        <div class="centered-text">
-<P ><h1 style="background-color: rgb(237, 187, 121);"><a name="value3">CAR DETAIL</a></h1></P>
+        <div id="login" class="hover">
+       <h1 style="background-color: rgb(100, 100, 164);"><a name="value3"></a>LOGIN:</h1>
+       <label for ="username">Enter your username:</label>
+       <input type="text" name ="username" placeholder="enter your name here" required pattern="[A-Z]"><br><br>
+
+        <label for="password">Enter your password:</label>
+        <input type="password" name="password" placeholder="enter your password" pattern="[a-zA-Z0-9]+" Autofocus required><br>
+
+        <br>
+        <label for="mail">Enter your email:</label><br>
+        <input type="email" id="mail" name="mail" ><br>
+            
+         <button type="submit" style="background-color: blue;">LOGIN</button>
+          <a href="http://www.signup.com" target="main">Forgotpassword?</a>
+     
+    </div>
+    </div>
+
+
+
+<P ><h1 style="background-color: rgb(100, 100, 164);"><a name="value4">CAR DETAIL</a></h1></P>
+<div id="sumbit">
         <label for="date">Enter the date to buy:</label>
-        <input type="date" name="date" required><br>
-<br>
+        <input type="date" name="date" required>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         <label for="time">Enter pickup time:</label>
-        <input type="time"></div>
-        <br><br>
-        <div class="centered-text">
+        <input type="time"><br>
             <h3>Select the function:-</h3>
         <input type="radio" name ="FUNCTION" value="FUNCTION" required>
-        <label for="FUNCTION">MARRIAGE</label><BR>
+        <label for="FUNCTION">MARRIAGE</label>
         <input type="radio" name ="FUNCTION" value="FUNCTION" required>
-        <label for="FUNCTION">FAMILY TRAVEL</label><BR>
+        <label for="FUNCTION">FAMILY TRAVEL</label>
         <input type="radio" name ="FUNCTION" value="FUNCTION" required>
-        <label for="FUNCTION">SOLO TRAVEL</label><BR>
+        <label for="FUNCTION">SOLO TRAVEL</label>
         <input type="radio" name ="FUNCTION" value="FUNCTION" required>
-        <label for="FUNCTION">FAMILY FUNCTION</label><BR>
+        <label for="FUNCTION">FAMILY FUNCTION</label>
         <input type="radio" name ="FUNCTION" value="FUNCTION" required>
-        <label for="FUNCTION">TOUR</label></div>
-       <br>
-        <div class="centered-text">
-            <h3>Number of seats required:</h3>
+        <label for="FUNCTION">TOUR</label>
+
+            <h3>Number of seats required:
             <input type="checkbox" id="seat" name="seat" value="seat">
-            <label for="seat">7-Seater</label><br>
+            <label for="seat" >7-Seater</label>
             
             <input type="checkbox" id="seat" name="seat" value="seat">
-            <label for="seat">4-Seater</label><br>
+            <label for="seat">4-Seater</label>
             
             <input type="checkbox" id="seat" name="seat" value="seat">
             <label for="seat">5-Seater</label>
-            
-            
-        </div>
-
-        <div class="centered-text">
-            <h3>SELECT DURATION(in hours)</h3>
+            <br>
+        
+            <h3>SELECT DURATION(in hours):
             <select name="hours" required >
                 <option value="Select">Select</option>
                 <option value="3">3 hours</option>
@@ -132,9 +155,8 @@
                 <option value="23">23hours</option>
                 <option value="24">24hours</option>
             </select>
-        </div>
-
-        <div class="centered-text"><h3>SELECT THE CITY</h3>
+            <br>
+        <h3>SELECT THE CITY:
             <select name="city" required >
                 <option value="Select">Select</option>
                 <option value="Delhi">Delhi</option>
@@ -144,10 +166,8 @@
                 <option value="Bangalore">Bangalore</option>
                 <option value="Bhubaneswar">Bhubaneswar</option>
             </select>
-        </div>
-
-    <DIV class="centered-text">
-        <H3>SELECT THE COLOR FOR YOUR CAR:</H3>
+        <br>
+        <H3>SELECT THE COLOR FOR YOUR CAR:
         <SELECT NAME="COLOR">
             <OPTION VALUE="SELECT">SELECT</OPTION>
             <OPTION VALUE="RED">RED</OPTION>
@@ -160,12 +180,10 @@
             <OPTION VALUE="ORANGE">ORANGE</OPTION>
             <OPTION VALUE="RAZBERRY">RAZBERRY</OPTION>
         </SELECT>
-    </DIV>
-<br>
-    <div class="centered-text">
-            <h3>SELECT BRAND</h3>
-            <h3>FOR 7 SEATER</h3>
+    <br><br>
+            <h3 style="text-decoration: underline; text-indent: 50px;">SELECT BRAND</h3>
 
+            <h3>FOR 7 SEATER:
             <select name="TYPE" required >
                 <option value="Select">Select</option>
                 <option value="2025 KIA EV9">2025 KIA EV9</option>
@@ -179,7 +197,7 @@
                 <option value="CHEVROLET TRAVERSE">CHEVROLET TRAVERSE</option>
                 <option value="LEXUS TX">LEXUS TX</option></select>
 
-                <H3>FOR 5 SEATERS:</H3>
+                <H3>FOR 5 SEATERS:
             <select name="TYPE" required>
                 <option value="Select">Select</option>
                 <option value="HYUNDAI IONIQ 5">HYUNDAI IONIQ 5</option>
@@ -190,10 +208,11 @@
                 <option value="TOYOTA RAV4">TOYOTA RAV4</option>
                 <option value="SUBARU FORESTER">SUBARU FORESTER</option>
                 <option value="TESLA MODEL Y">TESLA MODEL Y</option>
-                <option value="NISSAN ROGUE">NISSAN ROGUE</option></select>
+                <option value="NISSAN ROGUE">NISSAN ROGUE</option>
+                <option value="BMW 5 SERIES">BMW 5 SERIES</option></select>
 
-                <H3>FOR 4 SEATERS:</H3>
-                  <select name="TYPES" required >
+                <h3>FOR 4 SEATERS:
+                <select name="TYPES" required >
                 <option value="Select">Select</option>
                 <option value="">FORD MUSTANG GTD</option>
                 <option value="LEXUS LC">LEXUS LC</option>
@@ -202,17 +221,13 @@
                 <option value="MERCEDES BENZ CLE-CLASS">MERCEDES BENZ CLE-CLASS</option>
                 <option value="TOYOTA GR SUPRA">TOYOTA GR SUPRA</option>
             </select>
-        </div>
-
-<BR>
-    <div class="centered-text">
-        <button type="SUMBIT" style="background-color: aqua;">Sumbit the details</button>
-    
-        <h1 style="background-color: burlywood;"><a name="value4">CAR DESCRIPTION VIDEO</a></h1>
-
+<BR><br>
+        <button type="SUMBIT" style="background-color: aqua;">Sumbit  details</button>
+    </div>
+        <h1 style="background-color:rgb(100, 100, 164);"><a name="value5">CAR DESCRIPTION VIDEO</a></h1>
+<div style="display: inline;">
         <H2>FOR 7-SEATER CAR:</H2>
         <video src="VIDEO7.mp4" height="200" width="400"poster="poster_7.jpeg" controls muted></video>
-        <br>
     
         <H2>FOR 4-SEATER CAR:</H2>
         <video src="VIDEO4.mp4" height="200" width="400"poster="poster_4.jpeg" controls muted></video>
@@ -223,39 +238,44 @@
         <br>
     </div>
 
-    <div class="centered-text">
-        <h1 style="background-color: rgb(165, 165, 101);"><A name="value5">CAR INTERIOR</A></h1>
+    <div >
+        <h1 style="background-color: rgb(100, 100, 164);"><A name="value6">CAR INTERIOR</A></h1>
         <br>
         <H2>FOR 7-SEATER CAR:</H2>
-        <img src="7-SEATER-1.JPEG" alt="7-SEATER" HEIGHT="100" WIDTH="200"><BR>
-        <img src="7-SEATER-2.jpeg" alt="7-SEATER" HEIGHT="100" WIDTH="200"><BR>
+        <img src="7-SEATER-1.JPEG" alt="7-SEATER" HEIGHT="100" WIDTH="200">
+        <img src="7-SEATER-2.jpeg" alt="7-SEATER" HEIGHT="100" WIDTH="200">
         <H2>FOR 5-SEATER CAR:</H2>
-        <img src="5SEATER-1.JPEG" alt="5SEATER-1" HEIGHT="100" WIDTH="200"><BR>
-        <img src="5SEATER-2.JPEG" alt="5SEATER-2" HEIGHT="100" WIDTH="200"><BR>
+        <img src="5SEATER-1.JPEG" alt="5SEATER-1" HEIGHT="100" WIDTH="200">
+        <img src="5SEATER-2.JPEG" alt="5SEATER-2" HEIGHT="100" WIDTH="200">
         <img src="5SEATER-3.JPEG" alt="5SEATER-3" HEIGHT="100" WIDTH="200">
         <H2>FOR 4-SEATER CAR:</H2>
-        <img src="4-SEATER-1.JPEG" alt="4SEATER-1" HEIGHT="100" WIDTH="200"><BR>
+        <img src="4-SEATER-1.JPEG" alt="4SEATER-1" HEIGHT="100" WIDTH="200">
         <img src="4-SEATER-2.JPEG" alt="4SEATER-2" HEIGHT="100" WIDTH="200">
     </div>
-
-         <div class="centered-text">
-            <label for="feedback">Enter Your Feedback:</label><BR>
+<br>
+         <div >
+            <label for="feedback" style="background-color: rgb(100, 100, 164);">Enter Your Feedback:</label><BR>
             <textarea name="feedback" id="feedback" placeholder="enter your feedback here" rows="10" cols="60"></textarea>
+             <button type="SUMBIT" style="background-color: aqua;">Sumbit  details</button>
         </div>
 
     </MAIN>
-        <footer style="background-color:grey;"><div class="centered-text">
-            <PRE>
-                          BOOKMYCAR
-                       FOLLOW US ON <A HREF="HTTP://INSTAGRAM.COM"><IMG SRC="instagram.jpg" height="13"></A>
-           <hr>
-            Copyright &copy;BOOKMYCAR     FOR CONTACT:XXXXXXXXXX 
-            Address :
-                Acharya vihar,bhubaneswar,khordha,odisha,india
-            working hours:
-                Monday to sunday ;9.00AM-9.00PM
-            </PRE></div>
-        </footer>
+    <a name="vaue7"></a>
+    <h1 style="background-color: rgb(102, 102, 228);">About us</h1>
+  <div id="about">
+        we provide best cars for rent and affordable price with hassle free booking.
+        you can freely book your need car in seconds so be ready to enjoy the jourey with our cars and make your moment unforgettable.
+&nbsp; <hr>
+        copyright@2025_BookMyCar &nbsp;  &nbsp; follow us on:
+        <a href="http://instagram.com" target="main"><img src="instagram.jpg" alt="instagram" class="img"></a>
+        <a href="http://facebook.com" target="main"><img src="facebook.jpg" alt="facebook" class="img"></a>
+        &nbsp;
+        &nbsp;
+        CONTACT:XXXXXXXXX
+        &nbsp;
+        EMAIL:BookMyCar@gmail.com
+  </div>
+        
     </form>
 </body>
 </html>
