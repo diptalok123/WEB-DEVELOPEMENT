@@ -1,0 +1,90 @@
+/*
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    border: 2px solid black;
+}
+
+#container{
+    width: 700px;
+    height: 200px;
+    display: flex;
+  /*  flex-direction: row;
+    flex-direction: column-reverse;
+    flex-direction: column; *
+    flex-direction:row-reverse;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+  /*  justify-content: flex-end;
+    justify-content:flex-start; */
+   /* flex-wrap: wrap-reverse; 
+    align-items: center;
+    align-items:start;
+
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color:aquamarine;
+    height: 200px;
+    flex-shrink: 0.5;
+}
+#box3{
+    background-color: pink;
+    flex-grow: 1 ;
+}
+#box4{
+    background-color: blueviolet;
+    flex-grow:2 ; 
+}
+#box5{
+    background-color: yellow;
+     /*align-content: flex-end;
+}
+/*
+@media screen and (orientation: portrait){
+    div{
+        background-color: brown;
+    }
+}
+@media(min-width: 600px){
+    div{
+        background-color: green;
+    }
+}
+@media(max-width: 600px){
+    div{
+        background-color: green;
+    }
+} */
+
+body{
+    background-color: brown;
+    color: rgb(15, 42, 66);
+}
+@media only screen and (max-width:455px){ /* not may use incase of only
+                            mediadevides--all,print(printer),speech(who cant see)*/
+    body{
+        background-color: blue;
+    }
+    .container{
+        flex-direction: column;
+    }
+}
+.container{
+    display: flex;
+}
+.boxes{
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+    margin: 10px;
+    padding: 5px;
+}

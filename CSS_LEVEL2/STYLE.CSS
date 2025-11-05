@@ -1,0 +1,48 @@
+div{
+    color: white;
+    background-color: rgb(87, 8, 161);
+    height: 50px;
+    width: 100px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+} 
+
+h1{
+    border: 3px solid black;
+    text-align: center;
+    text-transform: capitalize;
+}
+/* for circling corners of a border*/
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+p{
+    border: 3px solid black;
+   /* padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+    padding: 50px; /* same from each side
+    top-right-bottom-left */
+    padding: 1px 2px 3px 4px;
+     /* clockwise:
+    top-right-bottom-left */
+}
+.margin{
+    border: 3px solid black;
+    margin: 10px 20px 30px 40px;
+   /*  margin: 50px;  same from each side
+    top-right-bottom-left */
+}
+div{
+    background-color: burlywood;
+    display: inline-block;
+
+}
+#hidden{
+    visibility: hidden;
+}
